@@ -85,10 +85,25 @@ from picture above my model accuracy incrace to 0.6910669829544902. so i use thi
 
 # 5. Dashboard
 now i make a simple dashboard for deploying my machine learning.
-1. main page:
+1. Main Page:
 
-![dashboard1](./gambar/gambar1_result_dashboard1.png.png)
+![dashboard1](./gambar/gambar1_result_dashboard1.png)
 
-2. about page:
+![dashboard4](./gambar/gambar1_result_dashboard4.png)
 
-![dashboard6](./gambar/gambar1_result_dashboard6.png.png)
+2. Result Page
+
+![dashboard2](./gambar/gambar1_result_dashboard2.png)
+
+3. About Page:
+
+![dashboard6](./gambar/gambar1_result_dashboard6.png)
+
+4. Histogram Plot Page
+
+![dashboard3](./gambar/gambar1_result_dashboard3.png)
+
+5. Pie Chart Page
+
+![dashboard6](./gambar/gambar1_result_dashboard6.png)
+
