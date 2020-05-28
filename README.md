@@ -38,7 +38,8 @@ Feature in dataset:
 24. lat = latitude of listing
 25. long = longitude of listing
 
-we can see the df.info() below:
+we can see the df.info() and null values in dataframe:
+(./gambar/gambar1_info_data.png)
 
 after that i make a new data frame:
 
