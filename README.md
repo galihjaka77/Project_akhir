@@ -61,3 +61,15 @@ this is the final dataset after doing data cleaning:
 before make a machine learning your dataset must be numerical type, because machine learning can only process data type numerical. i change data type from my dataset using pd.get_dummies.
 
 ![new dataframe dummies](./gambar/gambar1_data_features.png)
+
+# 3. Modeling "Regresion"
+i was try LinearRegression, Ridge, Lasso, DecisionTreeRegressor, RandomForestRegressor, and XGBRegressor.
+we can see the comparison table of all models
+| Model                     |        MAE         |          MSE          |        RMSE         |         R2Score         |
+|---------------------------|--------------------|-----------------------|---------------------|-------------------------|
+|LinearRegression           | 10959964598611.639 | 1.390472441290668e+29 | 372890391575147.44  | -1.4950759434565916e+21 |
+|Ridge                      | 5167.735564747135  |   51118256.0698117    |  7149.703215505641  |   0.45036181479088266   |
+
+
+but from all model i found the best model is RandomForestRegressor, but the R2Score is still bad it's 0.6885860225098832. 
+### a. Random
