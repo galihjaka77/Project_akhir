@@ -1,6 +1,14 @@
 # Project Akhir Job Connector Data Science "Used Car Price Prediction"
 by Jaka Galih Febrian
 
+1. Problem
+In this final project, I bring problems in the automotive field.
+Many people want to sell their cars, for various reasons.
+But the problem is they are afraid if the selling price of their cars is not in line with expectations.
+
+2. Solution
+The solution, in this final project I want to make these used car sellers more confident to sell their used cars by offering an application that can predict the price of their cars with features that I will explain later in the presentation.
+
 # 1. Dataset and Data Cleaning
 Context
 
@@ -97,7 +105,7 @@ now i make a simple dashboard for deploying my machine learning.
 
 3. About Page:
 
-![dashboard6](./gambar/gambar1_result_dashboard6.png)
+![dashboard5](./gambar/gambar1_result_dashboard5.png)
 
 4. Histogram Plot Page
 
@@ -107,3 +115,10 @@ now i make a simple dashboard for deploying my machine learning.
 
 ![dashboard6](./gambar/gambar1_result_dashboard6.png)
 
+
+# 6. Conclusion 
+The conclusions drawn from my project are:
+
+Many people in the USA who buy and sell used cars with the type of pick-up cars, besides that also includes many cars with prices under 10 dollars which I assume is a dummy car that is used as a display in a rental shop.
+From the dashboard that I use clearly this application is used to predict the price of used cars used by users before users actually sell their cars.
+In my opinion, this application can still be improved, including adding features for users who want to find a used car using a manufacturer or use a used car itself using the system recommendation model, so that this application can be used more broadly.
