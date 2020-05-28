@@ -39,7 +39,8 @@ Feature in dataset:
 25. long = longitude of listing
 
 we can see the df.info() and null values in dataframe:
-![Subset of columns of my data](./gambar/gambar1_info_data.png)
+
+![dataframe info](./gambar/gambar1_info_data.png)
 
 after that i make a new data frame:
 
