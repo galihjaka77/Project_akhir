@@ -39,11 +39,25 @@ Feature in dataset:
 25. long = longitude of listing
 
 we can see the df.info() and null values in dataframe:
+1. dataframe info:
 
 ![dataframe info](./gambar/gambar1_info_data.png)
 
-after that i make a new data frame:
+2. null values:
 
+![null info](./gambar/gambar1_info_null.png)
 
-this is the final dataset that i have after doing data cleaning
-# 2. 
+<b>after that i make a new data frame:</b>
+
+![new dataframe](./gambar/gambar1_new_dataframe.png)
+
+![new dataframe1](./gambar/gambar1_new_dataframe1.png)
+
+this is the final dataset after doing data cleaning:
+
+![new dataframe2](./gambar/gambar1_finaldataset.png)
+
+# 2. Data Preprocessing
+before make a machine learning your dataset must be numerical type, because machine learning can only process data type numerical. i change data type from my dataset using pd.get_dummies.
+
+![new dataframe dummies](./gambar/gambar1_data_features.png)
