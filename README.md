@@ -2,11 +2,13 @@
 by Jaka Galih Febrian
 
 1. Problem
+
 In this final project, I bring problems in the automotive field.
 Many people want to sell their cars, for various reasons.
 But the problem is they are afraid if the selling price of their cars is not in line with expectations.
 
 2. Solution
+
 The solution, in this final project I want to make these used car sellers more confident to sell their used cars by offering an application that can predict the price of their cars with features that I will explain later in the presentation.
 
 # 1. Dataset and Data Cleaning
