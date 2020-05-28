@@ -4,7 +4,7 @@ by Jaka Galih Febrian
 # 1. Dataset and Data Cleaning
 Context
 
-Craigslist is the world's largest collection of used vehicles for sale, yet it's very difficult to collect all of them in the same place. I found this dataset from kaggle.com whici is this dataset built from a scraper for a school project and expanded upon it later to create this dataset which includes every used vehicle entry within the United States on Craigslist.
+Craigslist is the world's largest collection of used vehicles for sale, yet it's very difficult to collect all of them in the same place. I found this dataset from kaggle.com which is this dataset built from a scraper for a school project and expanded upon it later to create this dataset which includes every used vehicle entry within the United States on Craigslist.
 
 Content
 
@@ -81,4 +81,14 @@ We have RandomForestRegressor for the best model. but we know that we can doing 
 
 ![GridSearchCV](./gambar/gambar1_result_random_and_GridSearchCV.png)
 
-from picture above my model accuracy incrace to 0.6910669829544902.
+from picture above my model accuracy incrace to 0.6910669829544902. so i use this model for my machine learning in dashboard.
+
+# 5. Dashboard
+now i make a simple dashboard for deploying my machine learning.
+1. main page:
+
+![dashboard1](./gambar/gambar1_result_dashboard1.png.png)
+
+2. about page:
+
+![dashboard6](./gambar/gambar1_result_dashboard6.png.png)
