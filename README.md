@@ -62,14 +62,23 @@ before make a machine learning your dataset must be numerical type, because mach
 
 ![new dataframe dummies](./gambar/gambar1_data_features.png)
 
-# 3. Modeling "Regresion"
+# 3. Modeling
 i was try LinearRegression, Ridge, Lasso, DecisionTreeRegressor, RandomForestRegressor, and XGBRegressor.
-we can see the comparison table of all models
+we can see the comparison table of all models:
 | Model                     |        MAE         |          MSE          |        RMSE         |         R2Score         |
 |---------------------------|--------------------|-----------------------|---------------------|-------------------------|
 |LinearRegression           | 10959964598611.639 | 1.390472441290668e+29 | 372890391575147.44  | -1.4950759434565916e+21 |
-|        Ridge              | 5167.735564747135  |   51118256.0698117    |  7149.703215505641  |   0.45036181479088266   |
+|Ridge                      | 5167.735564747135  |   51118256.0698117    |  7149.703215505641  |   0.45036181479088266   |
+|Lasso                      | 5167.994400569772  |   51112882.454225294  |  71.88876407735614  |    0.4504195934505242   |
+|DecisionTreeRegressor      | 3545.413238602576  |   46313472.953224204  |  59.54337275131949  |    0.502024224183682    |
+|RandomForestRegressor      | 3137.5482317382694 |   28962579.153778754  |  56.01382179193158  |    0.6885860225098832   |
+|XGBRegressor               | 3296.442799968624  |   29361057.822966177  |  57.41465666507659  |    0.6843014653004665   |
 
+but from all model i found the best model is RandomForestRegressor, but the R2Score is still bad it's 0.6885860225098832. so i doing Hyper-parameter optimization using GridSearchCV.
 
-but from all model i found the best model is RandomForestRegressor, but the R2Score is still bad it's 0.6885860225098832. 
-### a. Random
+# 4. Hyper-parameter optimization
+We have RandomForestRegressor for the best model. but we know that we can doing optimization for hyper-parameter so i use GridSearchCV to increase accuracy from my best model.
+
+![GridSearchCV](./gambar/gambar1_result_random_and_GridSearchCV.png)
+
+from picture above my model accuracy incrace to 0.6910669829544902.
